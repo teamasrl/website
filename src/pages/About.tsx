@@ -139,6 +139,27 @@ const About = () => {
                   <li className="flex">
                     <span className="text-accent-500 mr-3">🏆</span>
                     <div>
+                      <p className="font-medium">ASRL Research Program – Round Wing</p>
+                      <p className="text-white/60 text-sm"> Chennai, Tamil Nadu</p>
+                    </div>
+                  </li>
+                  <li className="flex">
+                    <span className="text-accent-500 mr-3">🏆</span>
+                    <div>
+                      <p className="font-medium"> Best Design – Aerofest 2026</p>
+                      <p className="text-white/60 text-sm"> Chennai, Tamil Nadu</p>
+                    </div>
+                  </li>
+                  <li className="flex">
+                    <span className="text-accent-500 mr-3">🏆</span>
+                    <div>
+                      <p className="font-medium"> MediDrop </p>
+                      <p className="text-white/60 text-sm"> Chennai, Tamil Nadu </p>
+                    </div>
+                  </li>
+                  <li className="flex">
+                    <span className="text-accent-500 mr-3">🏆</span>
+                    <div>
                       <p className="font-medium">1st Rank, Design Category - SUAS Competition (2019)</p>
                       <p className="text-white/60 text-sm">Maryland, USA</p>
                     </div>
@@ -168,6 +189,28 @@ const About = () => {
               >
                 <h3 className="text-2xl font-bold mb-4">Research Milestones</h3>
                 <ul className="space-y-4">
+                  <li className="flex">
+                    <span className="text-accent-500 mr-3">✓</span>
+                    <div>
+                      <p className="font-medium">Round Wing </p>
+                      <p className="text-white/60 text-sm">Citation from University of Kharkiv Research work acknowledged for its contribution to UAV design, autonomous flight systems, and aerospace innovation.</p>
+                    </div>
+                  </li>
+                  <li className="flex">
+                    <span className="text-accent-500 mr-3">✓</span>
+                    <div>
+                      <p className="font-medium">Advanced UAV Design & Development</p>
+                      <p className="text-white/60 text-sm">UAV systems by integrating aerodynamic analysis, lightweight structures, and autonomous flight capabilities.</p>
+                    </div>
+                  </li>
+                  <li className="flex">
+                    <span className="text-accent-500 mr-3">✓</span>
+                    <div>
+                      <p className="font-medium"> GPS-Guided Medical Supply Delivery System</p>
+                      <p className="text-white/60 text-sm">Designed and developed an autonomous UAV capable of navigating to predefined GPS coordinates and accurately deploying medical supplies for emergency response scenarios.</p>
+                    </div>
+                  </li>
+
                   <li className="flex">
                     <span className="text-accent-500 mr-3">✓</span>
                     <div>
