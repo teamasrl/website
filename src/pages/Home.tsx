@@ -15,9 +15,9 @@ const Home = () => {
 
   const featuredProjects = [
     {
-      name: 'Phoenix',
-      year: '2024',
-      description: 'Scientific multirotor for NARL with 5km range telemetry and advanced sensing capabilities.',
+      name: 'SAE',
+      year: '2026',
+      description: 'Designed and developed an autonomous UAV capable of QR-code based navigation, payload delivery, and precision landing for the Teknofest Aerospace Competition. Contributed to mission planning, computer vision, autonomous navigation, and Ground Control Station (GCS) development using Raspberry Pi 5, Pixhawk, MAVLink, OpenCV, Python, ROS 2, and PX4. Implemented real-time telemetry, waypoint navigation, obstacle avoidance, QR detection, and mission automation while integrating onboard sensors and communication systems.',
       isLatest: true,
     },
     {
