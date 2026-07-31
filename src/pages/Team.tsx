@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Users, Wrench, Code, CircuitBoard, User, } from 'lucide-react';
+import { Users, Wrench, Code, CircuitBoard, User, Plane } from 'lucide-react';
 
 import SectionTitle from '../components/SectionTitle';
 import TeamMemberCard from '../components/TeamMemberCard';
@@ -8,13 +8,13 @@ import TeamMemberCard from '../components/TeamMemberCard';
 const Team = () => {
   const [division, setDivision] = useState('all');
   
-  const divisions = [
+const divisions = [
     { id: 'all', name: 'Full Team', icon: <Users className="h-5 w-5" /> },
     { id: 'design', name: 'Design and Fabrication', icon: <Wrench className="h-5 w-5" /> },
     { id: 'flight', name: 'Flight Systems', icon: <CircuitBoard className="h-5 w-5" /> },
     { id: 'Coding', name: 'Coding', icon: <Code className="h-5 w-5" /> },
     { id: 'Corporate', name: 'Corporate', icon: <User className="h-5 w-5" /> },
-    {id: 'alumni', name: 'Alumni', icon: <Users className="h-5 w-5" />},
+    { id: 'alumni', name: 'Alumni', icon: <Users className="h-5 w-5" />},
   ];
   
   
@@ -66,15 +66,7 @@ const Team = () => {
         emailAddress: 'aratrikajoardar@gmail.com',
         instagramUrl: ''
       },
-       {
-        name: 'Akshaya P',
-        role: 'Corporate',
-        division: ['Corporate'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Akshaya P.jpeg',
-        linkedinUrl: 'https://www.linkedin.com/in/akshaya-padmanabhan-780b66337?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-        emailAddress: 'akshayapadmanabhan584@gmail.com',
-        instagramUrl: 'https://www.instagram.com/_akshayaa.13?igsh=MTBuNmVhNms0Mm42YQ=='
-      },
+       
       //Seniors 
       {
         name: 'Priyansh Sethi',
@@ -121,16 +113,6 @@ const Team = () => {
         emailAddress: 'archishasahoo.16@gmail.com',
         instagramUrl: 'https://www.instagram.com/archisha_1016'
       },
-      {
-        name: 'Rishav Kamboj',
-        role: 'Design and Fabrication Senior',
-        division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Rishav Kamboj.jpeg',
-        linkedinUrl: 'www.linkedin.com/in/rishav-kamboj',
-        emailAddress: 'rk6828@srmist.edu.in',
-        instagramUrl: ''
-      },
-
       {
         name: 'Prithvi Shankar',
         role: 'Design and Fabrication Senior',
@@ -270,6 +252,15 @@ const Team = () => {
         emailAddress: 'ehubham.jariwalaa06@gmail.com',
         instagramUrl: 'https://www.instagram.com/sjx._jw?igsh=dWNvbmc0dHZjaXhi'
       },
+      {
+        name: 'Akshaya P',
+        role: 'Corporate',
+        division: ['Corporate'],
+        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Akshaya P.jpeg',
+        linkedinUrl: 'https://www.linkedin.com/in/akshaya-padmanabhan-780b66337?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+        emailAddress: 'akshayapadmanabhan584@gmail.com',
+        instagramUrl: 'https://www.instagram.com/_akshayaa.13?igsh=MTBuNmVhNms0Mm42YQ=='
+      },
        {
         name: 'Praneel Sharma',
         role: 'Ex-Design and Fabrication',
@@ -351,6 +342,16 @@ const Team = () => {
         emailAddress: 'sv4643@srmist.edu.in',
         instagramUrl: ''
       },
+            {
+        name: 'Rishav Kamboj',
+        role: 'Ex-Design and Fabrication',
+        division: ['alumni'],
+        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Rishav Kamboj.jpeg',
+        linkedinUrl: 'www.linkedin.com/in/rishav-kamboj',
+        emailAddress: 'rk6828@srmist.edu.in',
+        instagramUrl: ''
+      },
+      
 
 
   ];
