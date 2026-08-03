@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Users, Wrench, Code, CircuitBoard, User, Plane } from 'lucide-react';
-
+import { Users, Wrench, Code, CircuitBoard, User} from 'lucide-react';
+import FpvControllerIcon from '../components/FpvControllerIcon';
 import SectionTitle from '../components/SectionTitle';
 import TeamMemberCard from '../components/TeamMemberCard';
 
@@ -14,6 +14,7 @@ const divisions = [
     { id: 'flight', name: 'Flight Systems', icon: <CircuitBoard className="h-5 w-5" /> },
     { id: 'Coding', name: 'Coding', icon: <Code className="h-5 w-5" /> },
     { id: 'Corporate', name: 'Corporate', icon: <User className="h-5 w-5" /> },
+    { id: 'fpv', name: '', icon: <FpvControllerIcon className="h-5 w-5" /> }, 
     { id: 'alumni', name: 'Alumni', icon: <Users className="h-5 w-5" />},
   ];
   
@@ -41,8 +42,8 @@ const divisions = [
       },
       {
         name: 'Archit Amey',
-        role: 'Flight System Lead',
-        division: ['flight'],
+        role: 'Flight System Lead & Fpv flight engineer ',
+        division: ['flight','fpv'],
         imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Archit Amey.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/archit-amey-bb17642b7?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'architamey@gmail.com',
@@ -66,11 +67,20 @@ const divisions = [
         emailAddress: 'aratrikajoardar@gmail.com',
         instagramUrl: ''
       },
+            {
+        name: 'Vedaant Sarda',
+        role: 'Fpv Lead  & Flight Systems Senior',
+        division: ['flight','fpv'],
+        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Vedaant Sarda.jpg',
+        linkedinUrl:'',
+        emailAddress: 'vs1982@srmist.edu.in',
+        instagramUrl: 'https://www.instagram.com/@vedaant-sarda'
+      },
        
       //Seniors 
       {
         name: 'Priyansh Sethi',
-        role: 'Coding Senior',
+        role: 'Coding Senior ',
         division: ['Coding'],
         imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Priyansh Sethi.jpg',
         linkedinUrl: 'Linkedid: https://www.linkedin.com/in/priyansh-sethi-aerospace',
@@ -85,15 +95,6 @@ const divisions = [
         linkedinUrl: 'https://www.linkedin.com/in/srizan-pallapothu-026a113a5?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'srizansairampallapothu@gmail.com',
         instagramUrl: 'https://www.instagram.com/srizan306?igsh=OTBtaHBnZXF6YzZj'
-      },
-      {
-        name: 'Vedaant Sarda',
-        role: 'Flight Systems Senior',
-        division: ['flight'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Vedaant Sarda.jpg',
-        linkedinUrl:'',
-        emailAddress: 'vs1982@srmist.edu.in',
-        instagramUrl: 'https://www.instagram.com/@vedaant-sarda'
       },
        {
         name: 'Alysia Gomes',
@@ -372,16 +373,25 @@ const divisions = [
   // Flight Systems custom order
   if (division === 'flight') {
     const getPriority = (member) => {
-      if (member.role === 'Flight System Lead') return 1;
-      if (member.role === 'Flight Systems Senior') return 2;
-      if (member.name === 'Aratrika Joardar') return 3;
-      if (member.role === 'Flight Systems Engineer') return 4;
-      return 5;
+      if (member.name === 'Archit Amey') return 1;
+      if (member.name === 'Vedaant Sarda') return 2;
+      if (member.role === 'Flight Systems Senior') return 3;
+      if (member.name === 'Aratrika Joardar') return 4;
+      if (member.role === 'Flight Systems Engineer') return 5;
+      return 6;
     };
 
     return members.sort((a, b) => getPriority(a) - getPriority(b));
   }
+    if (division === 'fpv') {
+    const getPriority = (member) => {
+      if (member.name === 'Archit Amey') return 2;
+      if (member.name === 'Vedaant Sarda') return 1;
+      return 3;
+    };
 
+    return members.sort((a, b) => getPriority(a) - getPriority(b));
+  }
   // Corporate custom order
   if (division === 'Corporate') {
     return members.sort((a, b) => {

@@ -84,7 +84,7 @@ const Home = () => {
               transition={{ duration: 1, delay: 0.2 }}
               className="hidden lg:block h-[600px] w-full"
             >
-           <iframe src='https://my.spline.design/flyingquadcopter-1WV7LqyfkbayY2ncsmWhKA9P/' frameborder='0' width='150%' height='100%'></iframe> 
+           <iframe src='https://my.spline.design/flyingquadcopter-1WV7LqyfkbayY2ncsmWhKA9P/' frameBorder='0' width='150%' height='100%'></iframe> 
  
 
 
