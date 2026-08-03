@@ -17,7 +17,7 @@ const Home = () => {
     {
       name: 'SAE',
       year: '2026',
-      description: 'Designed and developed an autonomous UAV capable of QR-code based navigation, payload delivery, and precision landing for the Teknofest Aerospace Competition. Contributed to mission planning, computer vision, autonomous navigation, and Ground Control Station (GCS) development using Raspberry Pi 5, Pixhawk, MAVLink, OpenCV, Python, ROS 2, and PX4. Implemented real-time telemetry, waypoint navigation, obstacle avoidance, QR detection, and mission automation while integrating onboard sensors and communication systems.',
+      description: 'Designed and developed an autonomous UAV capable of QR-code based navigation, payload delivery, and precision landing',
       isLatest: true,
     },
     {
@@ -84,7 +84,7 @@ const Home = () => {
               transition={{ duration: 1, delay: 0.2 }}
               className="hidden lg:block h-[600px] w-full"
             >
-           <iframe src='https://my.spline.design/flyingquadcopter-1WV7LqyfkbayY2ncsmWhKA9P/' frameborder='0' width='150%' height='100%'></iframe> 
+           <iframe src='https://my.spline.design/flyingquadcopter-1WV7LqyfkbayY2ncsmWhKA9P/' frameBorder='0' width='150%' height='100%'></iframe> 
  
 
 

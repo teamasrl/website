@@ -24,7 +24,7 @@ const Careers = () => {
         'Familiarity with flight controllers (Pixhawk, Ardupilot, etc.)',
         'Strong problem-solving skills'
       ],
-      applyLink: 'https://forms.gle/rprkJrkte37k7Lbb9'
+      applyLink: 'https://docs.google.com/forms/d/e/1FAIpQLSceiLpaRrfGYsgsNAd4a8zmzyPZ5Yj60rfRjn_GEcI_Rt4hMw/viewform'
     },
     {
       title: 'Software Developer',
@@ -43,7 +43,7 @@ const Careers = () => {
         'Understanding of embedded systems programming',
         'Experience with version control systems like Git'
       ],
-      applyLink: 'https://forms.gle/d83cFgtru2R3rjr86'
+      applyLink: 'https://docs.google.com/forms/d/e/1FAIpQLSceiLpaRrfGYsgsNAd4a8zmzyPZ5Yj60rfRjn_GEcI_Rt4hMw/viewform'
     },
     {
       title: 'Design And Fabrication Engineer',
@@ -62,7 +62,7 @@ const Careers = () => {
         'Knowledge of materials and their properties',
         'Hands-on fabrication skills'
       ],
-      applyLink: 'https://forms.gle/ekyMEqoSsE6UPeu26'
+      applyLink: 'https://docs.google.com/forms/d/e/1FAIpQLSceiLpaRrfGYsgsNAd4a8zmzyPZ5Yj60rfRjn_GEcI_Rt4hMw/viewform'
     },
     {
       title: 'Corporate',
@@ -81,7 +81,7 @@ const Careers = () => {
         'Good working knowledge of Microsoft Office/Google Workspace (Docs, Sheets, Slides).',
         'Familiarity with social media management, design tools (Canva/Photoshop), or branding strategies is a plus.',
       ],
-      applyLink: 'https://forms.gle/3coxZcRoGxGanD6E8'
+      applyLink: 'https://docs.google.com/forms/d/e/1FAIpQLSceiLpaRrfGYsgsNAd4a8zmzyPZ5Yj60rfRjn_GEcI_Rt4hMw/viewform'
     }
   ];
 
@@ -290,12 +290,6 @@ const Careers = () => {
                 </motion.div>
               </div>
             </div>
-            
-            <div className="mt-12 text-center">
-             <a href="https://forms.gle/xUAyoAp6z42qdTxAA" target="_blank" rel="noopener noreferrer">
-                    <button className="btn-primary">Apply For Multiple Roles</button>
-              </a>
-              </div>
           </div>
         </div>
       </section>

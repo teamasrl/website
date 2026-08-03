@@ -28,6 +28,72 @@ const About = () => {
     }
   ];
 
+  // Each row pairs a Competition Achievement with its matching Research Milestone.
+  // Rows render inside a CSS grid, so both cells in a row share the same height
+  // automatically -- no more drift when one side's text is longer than the other.
+  const legacyRows = [
+    {
+      achievement: {
+        title: 'ASRL Research Program – Round Wing',
+        subtitle: 'Chennai, Tamil Nadu'
+      },
+      milestone: {
+        title: 'Round Wing',
+        subtitle: 'Citation from University of Kharkiv Research work acknowledged for its contribution to UAV design, autonomous flight systems, and aerospace innovation.'
+      }
+    },
+    {
+      achievement: {
+        title: 'Best Design – Aerofest 2026',
+        subtitle: 'Chennai, Tamil Nadu'
+      },
+      milestone: {
+        title: 'Advanced UAV Design & Development',
+        subtitle: 'UAV systems by integrating aerodynamic analysis, lightweight structures, and autonomous flight capabilities.'
+      }
+    },
+    {
+      achievement: {
+        title: 'MediDrop',
+        subtitle: 'Chennai, Tamil Nadu'
+      },
+      milestone: {
+        title: 'GPS-Guided Medical Supply Delivery System',
+        subtitle: 'Designed and developed an autonomous UAV capable of navigating to predefined GPS coordinates and accurately deploying medical supplies for emergency response scenarios.'
+      }
+    },
+    {
+      achievement: {
+        title: '1st Rank, Design Category - SUAS Competition (2019)',
+        subtitle: 'Maryland, USA'
+      },
+      milestone: {
+        title: 'Advanced UAV Autonomy Systems',
+        subtitle: 'Pioneering work in autonomous flight control and navigation'
+      }
+    },
+    {
+      achievement: {
+        title: '1st Rank - SAE Autonomous Design Challenge (2020)',
+        subtitle: 'National Competition'
+      },
+      milestone: {
+        title: 'Long-Range Telemetry Solutions',
+        subtitle: 'Development of 5km+ range secure communications'
+      }
+    },
+    {
+      achievement: {
+        title: '1st Rank - VAYURVA, NITTE, Multirotor payload dropping (2024)',
+        subtitle: 'Mangaluru, Karnataka'
+      },
+      milestone: {
+        title: 'Hybrid VTOL Aircraft Design',
+        subtitle: 'Innovative approach to vertical takeoff and horizontal flight integration'
+      }
+    }
+  ];
+
   return (
     <div>
       {/* Hero Section */}
@@ -127,113 +193,41 @@ const About = () => {
           />
           
           <div className="bg-space-900/40 backdrop-blur-sm rounded-lg p-8 border border-space-800">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6 }}
-              >
-                <h3 className="text-2xl font-bold mb-4">Competition Achievements</h3>
-                <ul className="space-y-4">
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">🏆</span>
-                    <div>
-                      <p className="font-medium">ASRL Research Program – Round Wing</p>
-                      <p className="text-white/60 text-sm"> Chennai, Tamil Nadu</p>
-                    </div>
-                  </li>
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">🏆</span>
-                    <div>
-                      <p className="font-medium"> Best Design – Aerofest 2026</p>
-                      <p className="text-white/60 text-sm"> Chennai, Tamil Nadu</p>
-                    </div>
-                  </li>
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">🏆</span>
-                    <div>
-                      <p className="font-medium"> MediDrop </p>
-                      <p className="text-white/60 text-sm"> Chennai, Tamil Nadu </p>
-                    </div>
-                  </li>
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">🏆</span>
-                    <div>
-                      <p className="font-medium">1st Rank, Design Category - SUAS Competition (2019)</p>
-                      <p className="text-white/60 text-sm">Maryland, USA</p>
-                    </div>
-                  </li>
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">🏆</span>
-                    <div>
-                      <p className="font-medium">1st Rank - SAE Autonomous Design Challenge (2020)</p>
-                      <p className="text-white/60 text-sm">National Competition</p>
-                    </div>
-                  </li>
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">🏆</span>
-                    <div>
-                      <p className="font-medium">1st Rank - VAYURVA, NITTE, Multirotor payload dropping (2024)</p>
-                      <p className="text-white/60 text-sm">Mangaluru, Karnataka</p>
-                    </div>
-                  </li>
-                </ul>
-              </motion.div>
-              
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: 0.2 }}
-              >
-                <h3 className="text-2xl font-bold mb-4">Research Milestones</h3>
-                <ul className="space-y-4">
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">✓</span>
-                    <div>
-                      <p className="font-medium">Round Wing </p>
-                      <p className="text-white/60 text-sm">Citation from University of Kharkiv Research work acknowledged for its contribution to UAV design, autonomous flight systems, and aerospace innovation.</p>
-                    </div>
-                  </li>
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">✓</span>
-                    <div>
-                      <p className="font-medium">Advanced UAV Design & Development</p>
-                      <p className="text-white/60 text-sm">UAV systems by integrating aerodynamic analysis, lightweight structures, and autonomous flight capabilities.</p>
-                    </div>
-                  </li>
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">✓</span>
-                    <div>
-                      <p className="font-medium"> GPS-Guided Medical Supply Delivery System</p>
-                      <p className="text-white/60 text-sm">Designed and developed an autonomous UAV capable of navigating to predefined GPS coordinates and accurately deploying medical supplies for emergency response scenarios.</p>
-                    </div>
-                  </li>
+            {/* Column headers */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mb-4">
+              <h3 className="text-2xl font-bold">Competition Achievements</h3>
+              <h3 className="text-2xl font-bold">Research Milestones</h3>
+            </div>
 
-                  <li className="flex">
+            {/* Paired rows - each row is its own grid, so the achievement and
+                milestone cells always share the same row height */}
+            <div className="space-y-6">
+              {legacyRows.map((row, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="grid grid-cols-1 md:grid-cols-2 gap-10 pb-6 border-b border-space-800 last:border-b-0 last:pb-0"
+                >
+                  <div className="flex">
+                    <span className="text-accent-500 mr-3">🏆</span>
+                    <div>
+                      <p className="font-medium">{row.achievement.title}</p>
+                      <p className="text-white/60 text-sm">{row.achievement.subtitle}</p>
+                    </div>
+                  </div>
+
+                  <div className="flex">
                     <span className="text-accent-500 mr-3">✓</span>
                     <div>
-                      <p className="font-medium">Advanced UAV Autonomy Systems</p>
-                      <p className="text-white/60 text-sm">Pioneering work in autonomous flight control and navigation</p>
+                      <p className="font-medium">{row.milestone.title}</p>
+                      <p className="text-white/60 text-sm">{row.milestone.subtitle}</p>
                     </div>
-                  </li>
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">✓</span>
-                    <div>
-                      <p className="font-medium">Long-Range Telemetry Solutions</p>
-                      <p className="text-white/60 text-sm">Development of 5km+ range secure communications</p>
-                    </div>
-                  </li>
-                  <li className="flex">
-                    <span className="text-accent-500 mr-3">✓</span>
-                    <div>
-                      <p className="font-medium">Hybrid VTOL Aircraft Design</p>
-                      <p className="text-white/60 text-sm">Innovative approach to vertical takeoff and horizontal flight integration</p>
-                    </div>
-                  </li>
-                </ul>
-              </motion.div>
+                  </div>
+                </motion.div>
+              ))}
             </div>
           </div>
         </div>

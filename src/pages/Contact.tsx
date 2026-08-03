@@ -45,8 +45,8 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-lg mb-2">Our Location</h3>
                     <p className="text-white/70">
-                      ASRL LAB, BEL - 601,5th Floor
-                      Basic Engineering Lab
+                      ASRL LAB, C301, C302, C303, 3rd Floor<br />
+                      Canteen Building Main Campus<br />
                       SRM Institute of Science and Technology<br />
                       Kattankulathur, Chennai<br />
                       Tamil Nadu 603203, India
@@ -129,7 +129,7 @@ const Contact = () => {
           <div className="bg-space-800/40 backdrop-blur-sm p-4 rounded-lg border border-space-700 h-[400px] overflow-hidden">
             <iframe 
               title="ASRL Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.0903252239314!2d80.04120977483294!3d12.823081787455302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f712b82a78d9%3A0xfdb944ba83a4c74e!2sSRM%20Institute%20of%20Science%20and%20Technology!5e0!3m2!1sen!2sin!4v1694188912360!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.09!2d80.038538!3d12.8217452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f76cc2435ca1%3A0x1e5e2b4654ab41b8!2sSRM%20University%20Canteen!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
