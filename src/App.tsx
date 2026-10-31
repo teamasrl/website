@@ -7,6 +7,7 @@ import { Analytics } from "@vercel/analytics/react"
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import Blogs from './pages/Blogs';
 import Team from './pages/Team';
 import Sponsors from './pages/Sponsors';
 import Careers from './pages/Careers';
@@ -29,6 +30,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/blogs" element={<Blogs />} />
             <Route path="/team" element={<Team />} />
             <Route path="/sponsors" element={<Sponsors />} />
             <Route path="/careers" element={<Careers />} />

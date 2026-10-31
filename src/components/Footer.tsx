@@ -53,6 +53,7 @@ const Footer = () => {
               <li><Link to="/" className="text-white/70 hover:text-accent-400 transition-colors text-sm">Home</Link></li>
               <li><Link to="/about" className="text-white/70 hover:text-accent-400 transition-colors text-sm">About Us</Link></li>
               <li><Link to="/projects" className="text-white/70 hover:text-accent-400 transition-colors text-sm">Projects</Link></li>
+              <li><Link to="/blogs" className="text-white/70 hover:text-accent-400 transition-colors text-sm">Blogs</Link></li>
               <li><Link to="/team" className="text-white/70 hover:text-accent-400 transition-colors text-sm">Our Team</Link></li>
               <li><Link to="/sponsors" className="text-white/70 hover:text-accent-400 transition-colors text-sm">Sponsors</Link></li>
               <li><Link to="/careers" className="text-white/70 hover:text-accent-400 transition-colors text-sm">Join Us</Link></li>
@@ -80,7 +81,8 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Stay Updated</h3>
             <p className="text-sm text-white/70 mb-4">
-              Subscribe to our newsletter for the latest updates and news.
+              Subscribe to our newsletter for ASRL club blog updates on what's new in the aerospace
+              industry. Your name, email address and mobile number will be used to send you these updates.
             </p>
             <NewsletterForm />
           </div>

@@ -25,7 +25,7 @@ const divisions = [
         name: 'Manan Agarwal',
         role: 'Team Lead',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Manan Agarwal.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Manan Agarwal.jpg',
         linkedinUrl: 'http://linkedin.com/in/manan-agarwal-a489a72b9',
         emailAddress: 'ma7595@stmist.edu.in',
         instagramUrl: 'https://www.instagram.com/Me_mananagarwal'
@@ -35,7 +35,7 @@ const divisions = [
         name: 'Rishabh Raushan',
         role: 'Coding Lead',
         division: ['Coding'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Rishabh Raushan.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Rishabh Raushan.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/rishabh-raushan-7762422a1/',
         emailAddress: 'rishabhraushan200524@gmail.com',
         instagramUrl: 'https://www.instagram.com/itszrishabh/'
@@ -44,7 +44,7 @@ const divisions = [
         name: 'Archit Amey',
         role: 'Flight System Lead & Fpv flight engineer ',
         division: ['flight','fpv'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Archit Amey.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Archit Amey.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/archit-amey-bb17642b7?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'architamey@gmail.com',
         instagramUrl: 'https://www.instagram.com/architamey?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
@@ -53,7 +53,7 @@ const divisions = [
         name: 'Alapan Chatterjee',
         role: 'Design and Fabrication Lead',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Alapan Chatterjee.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Alapan Chatterjee.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/alapan-chatterjee-2a7766295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         emailAddress: 'alapan.chatterjee2204@gmail.com',
         instagramUrl: 'https://www.instagram.com/ace_.8202'
@@ -62,7 +62,7 @@ const divisions = [
         name: 'Aratrika Joardar',
         role: 'Corporate Lead & Flight Systems Engineer',
         division: ['flight', 'Corporate'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Aratrika Joardar.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Aratrika Joardar.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/aratrika-joardar-824692326',
         emailAddress: 'aratrikajoardar@gmail.com',
         instagramUrl: ''
@@ -71,7 +71,7 @@ const divisions = [
         name: 'Vedaant Sarda',
         role: 'Fpv Lead  & Flight Systems Senior',
         division: ['flight','fpv'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Vedaant Sarda.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Vedaant Sarda.jpg',
         linkedinUrl:'',
         emailAddress: 'vs1982@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/@vedaant-sarda'
@@ -82,7 +82,7 @@ const divisions = [
         name: 'Priyansh Sethi',
         role: 'Coding Senior ',
         division: ['Coding'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Priyansh Sethi.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Priyansh Sethi.jpg',
         linkedinUrl: 'Linkedid: https://www.linkedin.com/in/priyansh-sethi-aerospace',
         emailAddress: 'priyanshsethi019@gmail.com',
         instagramUrl: 'https://www.instagram.com/priyanshsethi_?utm_source=qr&igsh=Zjc1eTJlb2UzZ295'
@@ -91,7 +91,7 @@ const divisions = [
         name: 'P. Srizan Sai Ram',
         role: 'Coding Senior',
         division: ['Coding'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/srizan.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/srizan.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/srizan-pallapothu-026a113a5?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'srizansairampallapothu@gmail.com',
         instagramUrl: 'https://www.instagram.com/srizan306?igsh=OTBtaHBnZXF6YzZj'
@@ -100,7 +100,7 @@ const divisions = [
         name: 'Alysia Gomes',
         role: 'Flight Systems Senior',
         division: ['flight'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Alysia Gomes.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Alysia Gomes.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/alysia-gomes-88b488303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         emailAddress: 'alysiagomes102@gmail.com',
         instagramUrl: 'https://www.instagram.com/phoenix_in_space?igsh=b252Njk0MDFicHRp'
@@ -109,7 +109,7 @@ const divisions = [
         name: 'Archisha Sahoo',
         role: 'Flight Systems Senior',
         division: ['flight'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Archisha Sahoo.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Archisha Sahoo.jpg',
         linkedinUrl: 'www.linkedin.com/in/Archisha_Sahoo',
         emailAddress: 'archishasahoo.16@gmail.com',
         instagramUrl: 'https://www.instagram.com/archisha_1016'
@@ -118,7 +118,7 @@ const divisions = [
         name: 'Prithvi Shankar',
         role: 'Design and Fabrication Senior',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Prithvi Shankar.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Prithvi Shankar.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/prithvi-shankar-a0a9aa290/?skipRedirect=true',
         emailAddress: 'ps0676@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/pritttthvi'
@@ -128,7 +128,7 @@ const divisions = [
         name: 'Tejas R Nadig',
         role: 'Design and Fabrication Senior',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Tejas R Nadig.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Tejas R Nadig.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/tejas-r-nadig-534b852b3?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'tn1267@srmist.edu.in',
         instagramUrl: ''
@@ -138,7 +138,7 @@ const divisions = [
         name: 'Siranjeevi MR',
         role: 'Coding member',
         division: ['Coding'],
-        imageSrc:'https://raw.githubusercontent.com/ASRL-SRM/image/main/Siranjeevi MR.jpeg',
+        imageSrc:'https://raw.githubusercontent.com/teamasrl/images/main/Siranjeevi MR.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/siranjeevi-mr-8b1b683ba?utm_source=share_via&utm_content=profile&utm_medium=member_android' ,
         emailAddress: 'siranjeevi040807@gmail.com',
         instagramUrl: 'https://www.instagram.com/siranjeevi.infinite?igsh=MXZhbTFsNHN4dm55Mw=='
@@ -148,7 +148,7 @@ const divisions = [
         name: 'Aaditya Raj ',
         role: 'Coding member', 
         division: ['Coding'],
-        imageSrc:'https://raw.githubusercontent.com/ASRL-SRM/image/main/Aaditya.jpg',
+        imageSrc:'https://raw.githubusercontent.com/teamasrl/images/main/Aaditya.jpg',
         linkedinUrl:'https://www.linkedin.com/in/aaditya-raj-9a7108342?utm_source=share_via&utm_content=profile&utm_medium=member_android' ,
         emailAddress: 'aadityar2006@gmail.com',
         instagramUrl: 'https://www.instagram.com/aadihere09/?utm_source=ig_web_button_share_sheet'
@@ -157,7 +157,7 @@ const divisions = [
         name: 'Sathwik Srikakulapu',
         role: 'Coding member',
         division: ['Coding'],
-        imageSrc:'https://raw.githubusercontent.com/ASRL-SRM/image/main/sathwik Srikakulapu.jpeg',
+        imageSrc:'https://raw.githubusercontent.com/teamasrl/images/main/sathwik Srikakulapu.jpeg',
         linkedinUrl:'https://www.linkedin.com/in/sathwik-srikakulapu-8b3453390?utm_source=share_via&utm_content=profile&utm_medium=member_android' ,
         emailAddress: 'sathwiksrikakulapu@gmail.com',
         instagramUrl: 'https://www.instagram.com/sxsathvikxs?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
@@ -166,7 +166,7 @@ const divisions = [
         name: 'Abhinav Kumar',
         role: 'Flight Systems Engineer',
         division: ['flight'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Abhinav Kumar.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Abhinav Kumar.jpeg',
         linkedinUrl:'https://www.linkedin.com/in/abhinav-kumar-91a14533b',
         emailAddress: 'abhinavkumar98087@gmail.com',
         instagramUrl: 'https://www.instagram.com/ab.hinav_k?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=='
@@ -175,7 +175,7 @@ const divisions = [
         name: 'Arnav Peechara',
         role: 'Flight Systems Engineer',
         division: ['flight'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Arnav Peechara.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Arnav Peechara.jpeg',
         linkedinUrl:'https://www.linkedin.com/in/arnav-peechara-3981051b4/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BrtvB8FJCT9ySmC0uktpRPg%3D%3D',
         emailAddress: 'arnav.peechara@gmail.com',
         instagramUrl: 'https://www.instagram.com/arnav.peechara/'
@@ -184,7 +184,7 @@ const divisions = [
         name: 'T.Hiresh Jishnu',
         role: 'Flight Systems Engineer',
         division: ['flight'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/T.HireshJishnu.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/T.HireshJishnu.jpeg',
         linkedinUrl:'',
         emailAddress: ' hireshjish@gmail.com',
         instagramUrl: ''
@@ -194,7 +194,7 @@ const divisions = [
         name: 'Ridhi Mittal',
         role: 'Design and Fabrication Engineer',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Ridhi Mittal.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Ridhi Mittal.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/ridhi-mittal-b78539322?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'rp2551@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/ridrk_1508?igsh=bzlzYjd6bzluY25p'
@@ -203,7 +203,7 @@ const divisions = [
         name: 'Purvi Managuli',
         role: 'Design and Fabrication Engineer',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Purvi Managuli.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Purvi Managuli.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/purvi-m-56172a245?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'purvimanaguli@gmail.com',
         instagramUrl: 'https://www.instagram.com/purviii112?igsh=cXZhamo1NHFidWcz'
@@ -212,7 +212,7 @@ const divisions = [
         name: 'Siddhi Dhanawade',
         role: 'Design and Fabrication Engineer',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Siddhi Dhanawade.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Siddhi Dhanawade.jpeg',
         linkedinUrl: 'https://www.linkedin.cominsiddhi-dhanawade-326154225',
         emailAddress: 'sd9712@srmist.edu.in',
         instagramUrl: 'httpswww.instagram.com_siddhiii31_'
@@ -221,7 +221,7 @@ const divisions = [
         name: 'Rudranil Bhattacharjee',
         role: 'Design and Fabrication Engineer',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Rudranil Bhattacharjee.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Rudranil Bhattacharjee.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/rudranil-bhattacharjee-530312378?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'bhattacharjee.rudranil2007@gmail.com',
         instagramUrl: 'https://www.instagram.com/rudranil.py?igsh=bWRpbDQyNHduaHM1'
@@ -230,7 +230,7 @@ const divisions = [
         name: 'Paluri Durga Nandini',
         role: 'Design and Fabrication Engineer',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Durga Nandini Paluri.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Durga Nandini Paluri.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/nandini-paluri-857502393?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'dnandinip@gmail.com',
         instagramUrl: 'https://www.instagram.com/paluri.nandini?igsh=MTJsbG51YWd6eGkxeQ=='
@@ -239,7 +239,7 @@ const divisions = [
         name: 'Rokkala Suvashv',
         role: 'Design and Fabrication Engineer',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Rokkala Suvashv.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Rokkala Suvashv.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/suvashv-rokkala-185a21374?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'suvashvrokkala@gmail.com',
         instagramUrl: 'https://www.instagram.com/imsuvashv_rokkala?igsh=MWhobHB5eWQwcjh2bA=='
@@ -248,7 +248,7 @@ const divisions = [
         name: 'Shubham Jariwala',
         role: 'Design and Fabrication Engineer',
         division: ['design'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Shubham Jariwala.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Shubham Jariwala.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/shubham-jariwala-087168307?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'ehubham.jariwalaa06@gmail.com',
         instagramUrl: 'https://www.instagram.com/sjx._jw?igsh=dWNvbmc0dHZjaXhi'
@@ -257,7 +257,7 @@ const divisions = [
         name: 'Akshaya P',
         role: 'Corporate',
         division: ['Corporate'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Akshaya P.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Akshaya P.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/akshaya-padmanabhan-780b66337?utm_source=share_via&utm_content=profile&utm_medium=member_android',
         emailAddress: 'akshayapadmanabhan584@gmail.com',
         instagramUrl: 'https://www.instagram.com/_akshayaa.13?igsh=MTBuNmVhNms0Mm42YQ=='
@@ -266,7 +266,7 @@ const divisions = [
         name: 'Praneel Sharma',
         role: 'Ex-Design and Fabrication',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Praneel Sharma.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Praneel Sharma.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/praneel-sharma299792458/',
         emailAddress: 'sharmapraneelas@gmail.com',
         instagramUrl: 'https://www.instagram.com/sharma.praneel'
@@ -275,7 +275,7 @@ const divisions = [
         name: 'Yash Verma',
         role: 'Ex-Flight Systems',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Yash Verma.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Yash Verma.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/yashverma2004/',
         emailAddress: 'yashverma7531@gmail.com',
         instagramUrl: 'https://www.instagram.com/yash___verma/'
@@ -284,7 +284,7 @@ const divisions = [
         name: 'Aarya Menon',
         role: 'Ex-Coding',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Aarya Menon.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Aarya Menon.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/aarya-menon-83b420251/',
         emailAddress: 'am8957@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/_aaryamenon'
@@ -293,7 +293,7 @@ const divisions = [
         name: 'Shagun Somani',
         role: 'Ex-Corporate',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Shagun Somani.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Shagun Somani.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/shagun-somani-00b29a24b/',
         emailAddress: 'ss9416@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/shagunnn____?igsh=MjdmdjdleHNqdDV6'
@@ -302,7 +302,7 @@ const divisions = [
         name: 'Laxmi Waghmare',
         role: 'Ex-Design and Fabrication',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Laxmi Waghmare.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Laxmi Waghmare.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/laxmi-w/',
         emailAddress: 'lw5951@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/_.l_.a_.x_.m_.i_'
@@ -311,7 +311,7 @@ const divisions = [
         name: 'Divyansh Singh',
         role: 'Ex-Coding',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Divyansh Singh.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Divyansh Singh.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/divyansh-singh-8b12b426a/',
         emailAddress: 'ds8556@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/__just_divyaaaanshh__/'
@@ -320,7 +320,7 @@ const divisions = [
         name: 'Akshika Pathania',
         role: 'Ex-Design and Fabrication',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Akshika Pathania.jpg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Akshika Pathania.jpg',
         linkedinUrl: 'https://www.linkedin.com/in/akshika-pathania-b20304282/',
         emailAddress: 'ap7251@srmist.edu.in',
         instagramUrl: 'https://www.instagram.com/akshika2805'
@@ -329,7 +329,7 @@ const divisions = [
         name: 'Akshansh Sharma',
         role: 'Ex-Coding',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Akshansh Sharma.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Akshansh Sharma.jpeg',
         linkedinUrl: 'https://www.linkedin.com/in/akshansh-sharma-16220832b/',
         emailAddress: 'akshansh9816264920@gmail.com',
         instagramUrl: 'https://www.instagram.com/akshansh_shrma?igsh=eTFoYWQ4cm9zbGN5&utm_source=qr'
@@ -338,7 +338,7 @@ const divisions = [
         name: 'Siddharth Venkatesan',
         role: 'Ex-Coding',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Siddharth Venkatesan.png',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Siddharth Venkatesan.png',
         linkedinUrl: '',
         emailAddress: 'sv4643@srmist.edu.in',
         instagramUrl: ''
@@ -347,7 +347,7 @@ const divisions = [
         name: 'Rishav Kamboj',
         role: 'Ex-Design and Fabrication',
         division: ['alumni'],
-        imageSrc: 'https://raw.githubusercontent.com/ASRL-SRM/image/main/Rishav Kamboj.jpeg',
+        imageSrc: 'https://raw.githubusercontent.com/teamasrl/images/main/Rishav Kamboj.jpeg',
         linkedinUrl: 'www.linkedin.com/in/rishav-kamboj',
         emailAddress: 'rk6828@srmist.edu.in',
         instagramUrl: ''
